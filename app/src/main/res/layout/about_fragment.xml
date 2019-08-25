@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".about.AboutFragment">
+
+    <de.hdodenhof.circleimageview.CircleImageView android:layout_width="300dp"
+                                                  android:layout_height="300dp"
+                                                  android:layout_marginTop="72dp"
+                                                  android:id="@+id/iv_profile"
+                                                  android:src="@drawable/photo"
+                                                  app:layout_constraintTop_toTopOf="parent"
+                                                  app:layout_constraintStart_toStartOf="parent"
+                                                  app:layout_constraintEnd_toEndOf="parent"
+    />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:id="@+id/tv_name"
+              android:text="@string/nurrahman_hadi"
+              android:textSize="36sp"
+              android:textColor="@android:color/black"
+              android:textStyle="bold"
+              android:layout_marginTop="16dp"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintTop_toBottomOf="@id/iv_profile"
+    />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:id="@+id/tv_email"
+              android:text="@string/email"
+              android:textSize="24sp"
+              android:layout_marginTop="18dp"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintTop_toBottomOf="@id/tv_name"
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

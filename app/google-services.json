@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "128655199420",
+    "firebase_url": "https://noble-aquifer-144906.firebaseio.com",
+    "project_id": "noble-aquifer-144906",
+    "storage_bucket": "noble-aquifer-144906.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128655199420:android:d29031c96ca864f1",
+        "android_client_info": {
+          "package_name": "id.haadii.submissiondicoding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128655199420-u1e0dmjdvv17ossm3rbuavdpindoar7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF20eTdD9J4Ifvt3IWr_N-GCadM2wPBOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128655199420-u1e0dmjdvv17ossm3rbuavdpindoar7p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
